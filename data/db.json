@@ -2,13 +2,13 @@
   "posts": [
     {
       "id": 1,
-      "title": "welcome to the new blog",
+      "title": "welcome to Wen-Lin's blog",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "tags": ["webdev", "coding", "news"]
     },
     {
       "id": 2,
-      "title": "top 5 CSS tips",
+      "title": "HTML,CSS, JavaScript",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "tags": ["css", "webdev", "coding"]
     }
