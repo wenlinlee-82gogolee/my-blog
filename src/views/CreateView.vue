@@ -15,12 +15,16 @@
 
 <script>
 import { ref } from 'vue';
+import { useRouter } from 'vue-router';
 export default {
   setup() {
     const title = ref('');
     const body = ref('');
     const tag = ref('');
     const tags = ref([]);
+
+    const router = useRouter();
+    // console.log(router);
 
     const handleKeydown = () => {
       tag.value = tag.value.replace(/\s+/g, '');
@@ -38,6 +42,8 @@ export default {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(post),
       });
+
+      router.push('/');
     };
 
     return { title, body, tag, handleKeydown, tags, handleSubmit };
@@ -93,6 +99,7 @@ button {
   padding: 8px 16px;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
 }
 .pill {
   display: inline-block;
