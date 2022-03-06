@@ -4,13 +4,30 @@
       "id": 1,
       "title": "welcome to Wen-Lin's blog",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "tags": ["webdev", "coding", "news"]
+      "tags": [
+        "webdev",
+        "coding",
+        "news"
+      ]
     },
     {
       "id": 2,
       "title": "HTML,CSS, JavaScript",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "tags": ["css", "webdev", "coding"]
+      "tags": [
+        "css",
+        "webdev",
+        "coding"
+      ]
+    },
+    {
+      "title": "HTML Basics",
+      "body": "SEO",
+      "tags": [
+        "SEO",
+        "html"
+      ],
+      "id": 3
     }
   ]
 }
